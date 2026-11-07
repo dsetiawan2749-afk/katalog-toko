@@ -1,48 +1,70 @@
-<!DOCTYPE html>
-<html>
+html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Katalog Produk</title>
 <style>
-body{font-family:Arial;background:#f6f6f6;margin:0;padding:15px}
-h2{margin:5px 0}
-.card{background:#fff;border-radius:15px;padding:15px;margin-bottom:15px;text-align:center;box-shadow:0 2px 8px #ddd}
-.card img{width:100%;border-radius:10px}
-.harga{color:#e67e22;font-weight:bold;font-size:18px}
-.btn{display:block;background:#25D366;color:#fff;text-decoration:none;padding:12px;border-radius:10px;margin-top:10px;font-weight:bold}
-.badge{display:inline-block;background:#27ae60;color:#fff;padding:3px 10px;border-radius:20px;font-size:12px}
+body{font-family:Arial;margin:0;background:#f4f4f4}
+.header{background:#111;color:white;text-align:center;padding:25px 15px}
+.header h1{margin:0;font-size:26px}
+.header p{color:#ffcc00;margin:5px 0 0}
+.grid{padding:15px;display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.card img{width:100%;height:250px;object-fit:contain;background:white}
+.info{padding:12px;text-align:center}
+.info h3{margin:5px 0;font-size:16px}
+.info p{margin:5px 0;color:#666;font-size:13px}
+.harga{color:#e60000;font-weight:bold;font-size:16px;margin:8px 0}
+.btn{display:block;background:#25D366;color:white;text-decoration:none;padding:10px;border-radius:10px;font-weight:bold}
 </style>
 </head>
 <body>
 
-<h2>Katalog Produk</h2>
-<p>3 Produk • Terpopuler</p>
-
-<div class="card">
-<span class="badge">BEST SELLER</span><br><br>
-<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600">
-<h3>Kaos Oversize Cotton Hitam</h3>
-<p>Kaos oversize, bahan cotton combed 24s, unisex</p>
-<div class="harga">Rp 85.000</div>
-<a class="btn" href="https://wa.me/6283843653291?text=Halo,%20mau%20pesan%20Kaos%20Oversize%20Hitam">Beli via WA</a>
+<div class="header">
+<h1>TOKO KAMU</h1>
+<p>Katalog Produk Terbaru</p>
 </div>
 
+<div class="grid">
+
 <div class="card">
-<span class="badge">NEW</span><br><br>
-<img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600">
-<h3>Hoodie Polos Olive</h3>
-<p>Hoodie fleece cotton, tebal & nyaman</p>
+<img src="produk1.jpg">
+<div class="info">
+<h3>Jaket Bomber Army</h3>
+<p>Bahan tebal, nyaman dipakai</p>
 <div class="harga">Rp 150.000</div>
-<a class="btn" href="https://wa.me/6283843653291?text=Halo,%20mau%20pesan%20Hoodie%20Olive">Beli via WA</a>
+<a class="btn" href="https://wa.me/6283843653291?text=Halo, mau pesan Jaket Bomber Army">Pesan via WA</a>
+</div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600">
-<h3>Kemeja Flanel Plaid</h3>
-<p>Kemeja flanel premium, cocok dailywear</p>
-<div class="harga">Rp 120.000</div>
-<a class="btn" href="https://wa.me/6283843653291?text=Halo,%20mau%20pesan%20Kemeja%20Flanel">Beli via WA</a>
+<img src="produk2.jpg">
+<div class="info">
+<h3>Polo Maroon</h3>
+<p>Bahan adem, cocok harian</p>
+<div class="harga">Rp 50.000</div>
+<a class="btn" href="https://wa.me/6283843653291?text=Halo, mau pesan Polo Maroon">Pesan via WA</a>
+</div>
 </div>
 
+<div class="card">
+<img src="produk3.jpg">
+<div class="info">
+<h3>Kemeja Kotak</h3>
+<p>Katun premium, tidak panas</p>
+<div class="harga">Rp 75.000</div>
+<a class="btn" href="https://wa.me/6283843653291?text=Halo, mau pesan Kemeja Kotak">Pesan via WA</a>
+</div>
+</div>
+
+<div class="card">
+<img src="produk4.jpeg">
+<div class="info">
+<h3>Celana Tactical Blackhawk</h3>
+<p>Nyaman, ukuran lengkap</p>
+<div class="harga">Rp 125.000</div>
+<a class="btn" href="https://wa.me/6283843653291?text=Halo, mau pesan Celana Tactical Blackhawk">Pesan via WA</a>
+</div>
+</div>
+
+</div>
 </body>
 </html>
